@@ -12,6 +12,14 @@ This 2-to-4 bit encoder implements the following truth table:
 
 Derived from *FPGA Prototyping with Verilog*, Pong Chu.
 
-Due to the paucity of DIP switches on the Arty, implementation of this on the
-board is deferred until a later date (i.e. when I learn how to attach 
-additional switches to the dev board).
+Pin mapping:
+
+- D4: z[3]
+- D5: z[2]
+- D6: z[1]
+- D7: z[0]
+- D0: en (rgb LED; blue is selected, and it's very bright)
+
+- SW0: en
+- SW1: a1
+- Sw2: a0
