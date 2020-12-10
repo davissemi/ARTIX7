@@ -9,12 +9,12 @@ This project implements a 4-to-1 mux with the following truth table:
 
 Where
 
--BTN1: s1
--BTN0: s0
--SW0:  x0
--SW1:  x1
--SW2:  x2
--SW3:  x3
--D4:   y
+- BTN1: s1
+- BTN0: s0
+- SW0:  x0
+- SW1:  x1
+- SW2:  x2
+- SW3:  x3
+- D4:   y
 
 
